@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+  <header>
+    <div class="icon"><img src="css/global/imagens/conta.svg" alt=""></div>
+    <a class="logo" href="sweet coffe.html">Sweet Coffee</a>
+  </header>
+
+
+  <div id="login" class="form-container active">
+    <img src="css/global/imagens/conta.svg" height="130px"  alt="">
+    <input type="text" placeholder="USERNAME">
+    <input type="password" placeholder="PASSWORD">
+    <a href="#">Esqueceu a senha?</a>
+    <button>LOGIN</button>
+    <a onclick="showRegister()">Não tem conta? Cadastre-se</a>
+    
+  </div>
+
+
+  <div id="register" class="form-container">
+  <img src="css/global/imagens/conta.svg" height="130px"  alt="">
+    <input type="text" placeholder="USERNAME">
+    <input type="email" placeholder="EMAIL">
+    <input type="password" placeholder="PASSWORD">
+    <input type="text" placeholder="CPF">
+    <input type="text" placeholder="ENDEREÇO">
+    <a href="#">Esqueceu a senha?</a>
+    <button>CADASTRAR</button>
+    <a onclick="showLogin()">Já tem conta? Login</a>
+  </div>
+
+  <script>
+    function showRegister() {
+      document.getElementById('login').classList.remove('active');
+      document.getElementById('register').classList.add('active');
+    }
+
+    function showLogin() {
+      document.getElementById('register').classList.remove('active');
+      document.getElementById('login').classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

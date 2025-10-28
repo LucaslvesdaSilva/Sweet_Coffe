@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem somos?</title>
+  <link rel="stylesheet" href="../assets/css/sweet.css">
+  <link rel="stylesheet" href="../assets/css/quemsomos.css">
+  
+</head>
+<body>
+
+ <header class="cabecalho">
+    <div class="titulos">
+      <a href="sweet coffe.html" class="titulo1">Sweet</a>
+      <a href="sweet coffe.html" class="titulo2">coffe</a>
+    </div>
+    <nav>
+      <ul class="pesquisa">
+        <li>
+          <a class="quem_somos" href="quemsomos.html">quem somos?</a>
+        </li>
+        <li><a class="coffegelado" href="cafesgelado.html">cafes gelados</a>
+        </li>
+        <li><a class="coffequente" href="cafesquentes.html">cafes quentes</a>
+        </li>
+        <li><a class="matchas1" href="matchas.html">matchas</a>
+        </li>
+        <li><a class="sandubas" href="lanches.html">Lanches</a>
+        </li>
+        <li><a class="sobremesa" href="sobremesa.html">sobremesas</a>
+        </li>
+        <li><a class="bolos1" href="bolos.html">bolos</a>
+        </li>
+      </ul>
+    </nav>
+    </header>
+  <div class="container">
+    <!-- Página 1 -->
+    <div id="page1" class="page active">
+      <p><strong>Bem-vindo ao Sweet Coffee!</strong> Nossa história começa com uma paixão genuína por café e pela experiência única de cada xícara. Criamos um ambiente acolhedor, onde você pode saborear cafés de qualidade, feitos com grãos selecionados e preparados com todo o carinho.</p>
+
+      <div class="section-title">Nossa História ☕</div>
+      <div class="section-content">
+        A ideia de abrir o Sweet Coffee nasceu do desejo de compartilhar a verdadeira essência do café. Acreditamos que café é mais do que uma bebida – é uma arte, e estamos aqui para oferecer a melhor experiência possível, desde o grão até a xícara.
+      </div>
+
+      <div class="flex-section">
+        <div class="flex-text">
+          <div class="section-title">A Paixão pelo Café 😍</div>
+          <div class="section-content">
+            Escolhemos apenas os melhores grãos de fazendas sustentáveis, trazendo cafés especiais e receitas autorais para surpreender o seu paladar. Cada detalhe importa, e nossa equipe é dedicada a oferecer um café de qualidade, seja no local ou via delivery.
+          </div>
+        </div>
+        <img src="css/global/imagens_quentes/cocoa.jpg" alt="Xícara de café" height="200px" width="260px" style="object-fit: cover;">
+      </div>
+
+      <div class="page-nav">
+        <button class="nav-button" onclick="showPage(2)">Próxima Página →</button>
+      </div>
+    </div>
+
+    <!-- Página 2 -->
+    <div id="page2" class="page">
+      <div class="section-title">Sustentabilidade e Ingredientes Frescos</div>
+      <div class="section-content">
+        Trabalhamos com fornecedores locais e priorizamos ingredientes frescos e orgânicos. Nosso compromisso é com a qualidade e o respeito ao meio ambiente, oferecendo uma experiência autêntica e responsável.
+      </div>
+
+      <div class="flex-section">
+        <img src="css/global/imagens_frio/affogato.jpg" alt="Café fresco" height="200px" width="260px" style="object-fit: cover;">
+        <div class="flex-text">
+          <div class="section-title">Nosso Compromisso com Você</div>
+          <div class="section-content">
+            Mais do que café, oferecemos momentos especiais. Nosso atendimento é personalizado, e queremos que você se sinta em casa. Seja na loja ou no conforto da sua casa com nosso delivery, o Café da Esquina está sempre pronto para te surpreender.
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <strong>OBRIGADO POR ESCOLHER O SWEET COFFEE. VENHA NOS VISITAR OU PEÇA ONLINE – O CAFÉ PERFEITO ESTÁ ESPERANDO POR VOCÊ! ☕</strong>
+      </div>
+
+      <div class="page-nav">
+        <button class="nav-button" onclick="showPage(1)">← Página Anterior</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showPage(pageNumber) {
+      document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+      });
+      document.getElementById('page' + pageNumber).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

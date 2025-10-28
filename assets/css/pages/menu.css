@@ -1,0 +1,125 @@
+.home {
+  font-family: Inline;
+  font-size: 20px;
+  position: absolute;
+  display: grid;
+  align-items: center;
+  top: 80px;
+  left: 70px;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: #ffffff;
+  color: #884e24;
+  text-align: center;
+}
+
+.entregar {
+  position: absolute;
+  top: -1px;
+  left: -48px;
+  height: 30px;
+}
+
+.suas-compras {
+  position: absolute;
+  top: -1px;
+  left: -50px;
+  height: 30px;
+}
+
+
+
+menu>ul {
+  list-style: none;
+}
+
+.login {
+  position: absolute;
+  top: 160px;
+  font-size: 20px;
+
+  width: 209px;
+}
+
+.compras {
+  position: absolute;
+  top: 210px;
+  font-size: 20px;
+
+  width: 209px;
+}
+
+.entregas {
+  position: absolute;
+  top: 260px;
+  font-size: 20px;
+}
+
+.contato{
+  position: absolute;
+  top: 310px;
+  font-size: 20px;
+}
+.noticia{
+  position: absolute;
+  top: 360px;
+  font-size: 20px;
+}
+.noticias{
+   position: absolute;
+  top: -1px;
+  left: -48px;
+  height: 28px;
+}
+.contact{
+     position: absolute;
+  top: -1px;
+  left: -48px;
+  height: 28px;
+}
+.conta {
+  position: absolute;
+  top: -1px;
+  left: -48px;
+  height: 30px;
+}
+
+
+menu {
+  display: block;
+  background-color: #884e24;
+  position: absolute;
+  top: 101px;
+  right: 0px;
+  display: none;
+  height: 450px;
+  border-end-end-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 250px;
+  z-index: 1;
+}
+
+.menu-icon {
+  background-color: #f8be72;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 10px; 
+  height: 65px;
+}
+
+menu>li>a:hover {
+  background-color: #f8be72;
+}
+.perfil{
+  font-size: 20px;
+  position: absolute;
+  top: 55vh;
+  }
+.perfil2{
+   position: absolute;
+  top: -1px;
+  left: -48px;
+  height: 28px;
+}

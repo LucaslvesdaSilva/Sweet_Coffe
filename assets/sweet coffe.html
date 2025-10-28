@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../assets/css/pages/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweet coffe</title>
+
+
+</head>
+
+<body>
+    <img class="fundo" src="../assets/css/global/imagens/fundo.png" alt="fundo">
+    <header class="cabecalho">
+        <div class="titulos">
+            <a href="sweet coffe.html" class="titulo1">Sweet</a>
+            <a href="sweet coffe.html" class="titulo2">coffe</a>
+        </div>
+        <nav>
+            <ul class="pesquisa">
+                <li><a class="quem_somos" href="quemsomos.html">quem somos?</a>
+                </li>
+                <li><a class="coffegelado" href="cafesgelado.html">cafes gelados</a>
+                </li>
+                <li><a class="coffequente" href="cafesquentes.html">cafes quentes</a>
+                </li>
+                <li><a class="matchas1" href="matchas.html">matchas</a>
+                </li>
+                <li><a class="sandubas" href="lanches.html">Lanches</a>
+                </li>
+                <li><a class="sobremesa" href="sobremesa.html">sobremesas</a>
+                </li>
+                <li><a class="bolos1" href="bolos.html">bolos</a>
+                </li>
+            </ul>
+        </nav>
+        <img class="menu-icon" src="../assets/css/global/imagens/menu.svg" alt="menu" onclick="clickmenu()">
+        <menu id="itens">
+            <ul class="menus1">
+                <li>
+                    <a class="home" href="sweet coffe.html"> home </a>
+                </li>
+                <li>
+                    <a class="login" href="login.html"> login <img class="conta"
+                            src="../assets/css/global/imagens/conta.svg" alt=""> </a>
+                </li>
+                <li>
+                    <a class="compras" href="carrinho.html"> carrinho <img class="suas-compras"
+                            src="../assets/css/global/imagens/compras.svg"> </a>
+                </li>
+                <li>
+                    <a class="entregas" href="entregas.html"> entrega <img class="entregar"
+                            src="../assets/css/global/imagens/caminhao.svg" alt=""> </a>
+                </li>
+
+                <li>
+                    <a class="contato" href="contatos.html"> contato <img class="contact"
+                            src="../assets/css/global/imagens/contato.svg" alt=""> </a>
+                </li>
+                <li>
+                    <a class="noticia" href="noticia.html"> noticias <img class="noticias"
+                            src="../assets/css/global/imagens/noticia.svg" alt=""> </a>
+                </li>
+                <li>
+                    <a class="perfil" href="noticia.html"> perfil <img class="perfil2"
+                            src="../assets/css/global/imagens/conta.svg" alt=""> </a>
+                </li>
+
+            </ul>
+        </menu>
+
+        <div class="search-box">
+            <input type="text" class="search-txt" placeholder="pesquisar">
+            <a href="#" class="search-btn">
+                <img class="lupinha" src="../assets/css/global/imagens/lupa.svg" alt="lupa" height="40px" width="40px">
+            </a>
+        </div>
+        <div class="house-box">
+
+            <a href="#" class="house-botao">
+            </a>
+        </div>
+    </header>
+    <div class="cards">
+        <div class="card">
+            <a href="cafesgelado.html"><img class="cafesgelados" src="../assets/css/global/imagens/cafesgelados.jpg"
+                    alt="cafe"></a>
+            <div class="fundo_marrom">
+                <p>Cafés gelado
+            </div>
+        </div>
+        <div class="card">
+            <a href="cafesquentes.html"><img src="../assets/css/global/imagens/cafesquentes.jpg" alt="cafes quentes"
+                    class="cafesquentes"></a>
+            <div class="fundo_marrom">
+                <p>Cafés quentes
+            </div>
+        </div>
+        <div class="card">
+            <a href="matchas.html"> <img src="../assets/css/global/imagens/matchas.jpg" alt="matchas"
+                    class="matchas"></a>
+            <div class="fundo_marrom">
+                <p>Matchas
+            </div>
+        </div>
+        <div class="card">
+            <a href="sanduiches.html"> <img src="../assets/css/global/imagens/sanduiches.jpg" alt="sanduiches"
+                    class="sanduiches"></a>
+            <div class="fundo_marrom">
+                <p>Lanches
+            </div>
+        </div>
+        <div class="card">
+            <a href="sobremesa.html"> <img src="../assets/css/global/imagens/sobremesas.jpeg" alt="sobremesas"
+                    class="sobremesas"></a>
+            <div class="fundo_marrom">
+                <p>Sobremesas
+            </div>
+        </div>
+        <div class="card">
+            <a href="bolos.html"> <img src="../assets/css/global/imagens/choco-cenoura.png" alt="bolo"
+                    class="bolos"></a>
+            <div class="fundo_marrom">
+                <p>Bolos
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function clickmenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

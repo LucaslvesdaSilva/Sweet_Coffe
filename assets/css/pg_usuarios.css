@@ -1,0 +1,108 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFF8EF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      background-color: #F1C996;
+      border-radius: 25px;
+      padding: 40px;
+      width: 80%;
+      max-width: 700px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .icon-user {
+      width: 60px;
+      height: 60px;
+      border: 3px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .icon-user::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      border: 3px solid white;
+      border-radius: 50%;
+      position: relative;
+      top: -5px;
+      background: transparent;
+    }
+
+    .icon-user::after {
+      content: "";
+      width: 30px;
+      height: 15px;
+      border: 3px solid white;
+      border-top: none;
+      border-radius: 0 0 20px 20px;
+      position: relative;
+      top: 8px;
+    }
+
+    label {
+      align-self: flex-start;
+      color: #6b2f12;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .btn {
+      background-color: #5B3521;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 25px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 30px;
+      }
+
+      input {
+        font-size: 14px;
+      }
+
+      .btn {
+        padding: 8px 18px;
+      }
+    }

@@ -1,0 +1,99 @@
+   body {
+      background: url(global/imagens/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  z-index: -2;}
+
+    
+    header {
+      background-color: #f4a261;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #5a3825;
+      font-family: cursive;
+      text-decoration: none;
+    }
+
+  
+    .form-container {
+      background-color: #f6c89f;
+      max-width: 350px;
+      margin: 60px auto;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+      position: relative;
+      display: none;
+    }
+
+    .form-container.active {
+      display: block;
+    }
+
+    .form-container img.coffee {
+      position: absolute;
+      top: -25px;
+      right: -25px;
+      width: 60px;
+    }
+
+
+
+    .form-container input {
+      display: block;
+      width: 94%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 25px;
+      border: none;
+      background-color: #8d5a37;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      outline: none;
+    }
+
+    .form-container input::placeholder {
+      color: white;
+      font-weight: bold;
+    }
+
+    .form-container a {
+      display: block;
+      font-size: 12px;
+      color: #333;
+      margin: 5px 0 15px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .form-container button {
+      background-color: #5a3825;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #40291c;
+    }
